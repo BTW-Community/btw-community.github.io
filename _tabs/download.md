@@ -15,7 +15,7 @@ order: 2
     <div class="card-body">
       <h2 slot="name" class="card-title" style="margin-top: 0">NAME</h2>
       <p slot="description" class="card-text content" style="white-space: pre-line; max-height: 6em; overflow-y: scroll"></p>
-      <a slot="url" class="btn btn-primary">Download</a>
+      <a slot="url" class="btn btn-primary" href="#">Download</a>
     </div>
   </article>
 </template>
