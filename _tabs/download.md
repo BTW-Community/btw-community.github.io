@@ -8,7 +8,7 @@ order: 2
 
 <h2>Which file should I download?</h2>
 
-<p>Please check out our <a href="/installation">installation page</a>.</p>
+<p>Please check out our <a href="{% link _tabs/installation.md %}">installation page</a>.</p>
 
 <template id="release-template">
   <article class="card card-wrapper" style="border: 1px solid gray">
