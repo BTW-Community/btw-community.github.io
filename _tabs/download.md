@@ -38,7 +38,7 @@ order: 2
     getSlot(element, "url").href = release.assets[0].browser_download_url;
 
     return element;
-  }
+  };
 
   const elements = await Promise.all([
     ["cursed-fabric-loader", "latest"],
