@@ -1,0 +1,37 @@
+---
+layout: default
+refactor: true
+---
+
+{% include lang.html %}
+
+<article class="mb-4">
+  <img
+    class=""
+    src="/assets/img/hero-ce.png"
+    alt="Better Than Wolves - Community Edition"
+  />
+</article>
+
+<nav class="nav nav-pills nav-fill fs-4">
+  <a class="nav-link text-light" href="{{ site.wiki.url }}">
+    <i class="fas fa-book-open text-primary"></i>
+    Wiki
+  </a>
+  <a class="nav-link text-light" href="{{ site.forums.url }}">
+    <i class="fas fa-comments text-primary"></i>
+    Forums
+  </a>
+  <a class="nav-link text-light" href="{{ site.discord.url }}">
+    <i class="fab fa-discord text-primary"></i>
+    Discord
+  </a>
+  <a class="nav-link text-light" href="https://github.com/{{ site.github.username }}">
+    <i class="fab fa-github text-primary"></i>
+    Github
+  </a>
+  <a class="nav-link text-light" href="{{ site.status.url }}">
+    <i class="fas fa-signal text-primary"></i>
+    Status
+  </a>
+</nav>

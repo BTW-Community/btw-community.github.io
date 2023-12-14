@@ -3,6 +3,9 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
+gem "jekyll-github-metadata", "~> 2.16"
+
+gem "dotenv", "~> 2.7"
 
 group :test do
   gem "html-proofer", "~> 4.4"
