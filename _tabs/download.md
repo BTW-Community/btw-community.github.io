@@ -42,7 +42,9 @@ order: 2
 
   const elements = await Promise.all([
     ["cursed-fabric-loader", "latest"],
-    ["BTW-Public", "latest"]
+    ["BTW-Public", "latest"],
+    ["Cursed-BTW", "latest"],
+    ["legacy-fabric-installer", "latest"]
   ].map(args => addRelease(...args)));
 
   const section = document.getElementById("post-list");
